@@ -1,0 +1,28 @@
+{
+  "name": "pink-web-app",
+  "version": "1.0.0",
+  "description": "A pink-themed web application built with React and TypeScript.",
+  "main": "src/main.tsx",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "keywords": [
+    "react",
+    "typescript",
+    "vite",
+    "web",
+    "pink"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "vite": "^2.6.4",
+    "typescript": "^4.4.3"
+  }
+}

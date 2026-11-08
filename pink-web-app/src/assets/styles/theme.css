@@ -1,0 +1,30 @@
+body {
+    background-color: pink;
+    color: white;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: hotpink;
+}
+
+a {
+    color: deeppink;
+}
+
+button {
+    background-color: hotpink;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: deeppink;
+}
+
+.header, .footer {
+    background-color: lightpink;
+    padding: 20px;
+    text-align: center;
+}

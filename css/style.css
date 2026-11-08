@@ -1,0 +1,17 @@
+/* Part 1 minimal stylesheet: Hope Haven Animal Rescue. Full styling comes in Part 2. */
+:root{--teal:#1F7A6D;--amber:#F2A541;--cream:#FFF8EE;--ink:#2B2B2B}
+body{font-family:"Open Sans",Arial,sans-serif;color:var(--ink);background:var(--cream);margin:0;line-height:1.6}
+header,main,footer{max-width:960px;margin:0 auto;padding:1rem}
+header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:1rem}
+nav ul{list-style:none;display:flex;flex-wrap:wrap;gap:1rem;padding:0;margin:0}
+nav a{color:var(--teal);font-weight:600;text-decoration:none}
+nav a[aria-current="page"]{border-bottom:3px solid var(--amber)}
+h1,h2,h3{font-family:Poppins,Arial,sans-serif;color:var(--teal)}
+img{max-width:100%;height:auto}
+.hero{background:var(--teal) url("../images/hero.svg") center/cover;color:#fff;padding:3rem 1rem;border-radius:8px}
+.hero h1,.hero p{color:#fff}
+.button{display:inline-block;background:var(--amber);color:var(--ink);padding:.6rem 1.2rem;border-radius:6px;text-decoration:none;font-weight:700}
+label{display:block;margin-top:.8rem;font-weight:600}
+input,select,textarea{width:100%;max-width:480px;padding:.5rem;box-sizing:border-box}
+iframe{width:100%;max-width:460px;height:260px;border:0}
+footer{border-top:2px solid var(--teal);margin-top:2rem}
